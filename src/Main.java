@@ -57,6 +57,12 @@ public class Main {
         // Mostrar resumen
         mostrarResumen(piso, habitacion, personas);
 
+
+        // make game
+        Game game = new Game();
+
+        // play game
+        game.play();
     }
 
     public static int[][] inicializarHotel(int pisos, int habitaciones) {
