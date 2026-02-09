@@ -11,11 +11,11 @@ import java.util.Scanner;
             static Scanner scanner = new Scanner(System.in);
 
             public static void main(String[] args) {
-                initGame();
+                initGame1();
                 gameLoop();
             }
 
-            static void initGame() {
+            static void initGame1() {
                 board.add(2);
                 board.add(2);
                 board.add(4);
