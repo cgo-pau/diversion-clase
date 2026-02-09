@@ -6,6 +6,7 @@ public class Main {
 
 
         System.out.println("Adam, compra tabaco");
+        int suma = suma(2, 5);
 
         char[][] cara = new char[9][9];
 
@@ -108,6 +109,11 @@ public class Main {
         System.out.println("Piso reservado: " + piso);
         System.out.println("Habitación: " + habitacion);
         System.out.println("Cantidad de personas: " + personas);
+    }
+
+
+    static void suma(int a, int b) {
+        return a + b;
     }
 }
 
