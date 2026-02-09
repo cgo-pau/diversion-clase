@@ -7,7 +7,6 @@ public class Juego {
         int maxHp;
         int ataque;
         
-        
         public Pokemon(String nombre, int hp, int ataque) {
             this.nombre = nombre;
             this.hp = hp;
