@@ -112,7 +112,7 @@ public class Main {
     }
 
 
-    static void suma(int a, int b) {
+    static int suma(int a, int b) {
         return a + b;
     }
 }
