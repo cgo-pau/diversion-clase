@@ -38,6 +38,7 @@ public class Juego {
                 new Pokemon("Gengar", 130, 55),
                 new Pokemon("Snorlax", 300, 25),
                 new Pokemon("Mewtwo", 190, 70)
+                
         );
 
         public static void main(String[] args) {
