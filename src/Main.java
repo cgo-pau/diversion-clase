@@ -4,4 +4,5 @@ public class Main {
         System.out.println("Olaf k ashe");
         System.out.println("AllahuakBuyThisProduct");
     }
+    System.out.println("D:");
 }
