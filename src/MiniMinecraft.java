@@ -42,7 +42,7 @@ public class MiniMinecraft {
             System.out.println("\nWASD = mover | M = minar | P = colocar | I = inventario | Q = salir");
             String input = sc.nextLine().toUpperCase();
 
-            if (input.equals("Q")) break;
+            if (input.equals("a")) break;
 
             handleInput(input);
             applyGravity();
