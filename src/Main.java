@@ -3,11 +3,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println(1);
+        System.out.println("Olaf k ashe");
+        System.out.println("AllahuakBuyThisProduct");
 
 
         System.out.println("Adam, compra tabaco");
         System.out.println("En Joel es un genio");
-        int suma = suma(2, 5);
 
         char[][] cara = new char[9][9];
 
@@ -55,10 +57,6 @@ public class Main {
 
         // Registrar la reserva
         reservarHabitacion(hotel, piso, habitacion, personas);
-
-        // Mostrar resumen
-        mostrarResumen(piso, habitacion, personas);
-
 
         // make game
         Game game = new Game();
