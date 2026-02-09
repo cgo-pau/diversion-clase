@@ -6,6 +6,7 @@ public class Main {
 
 
         System.out.println("Adam, compra tabaco");
+        System.out.println("En Joel es un genio");
         int suma = suma(2, 5);
 
         char[][] cara = new char[9][9];
@@ -103,17 +104,4 @@ public class Main {
     public static void reservarHabitacion(int[][] hotel, int piso, int habitacion, int personas) {
         hotel[piso][habitacion] = personas;
     }
-
-    public static void mostrarResumen(int piso, int habitacion, int personas) {
-        System.out.println("\n--- RESUMEN DE RESERVA ---");
-        System.out.println("Piso reservado: " + piso);
-        System.out.println("Habitación: " + habitacion);
-        System.out.println("Cantidad de personas: " + personas);
-    }
-
-
-    static int suma(int a, int b) {
-        return a + b;
-    }
 }
-
