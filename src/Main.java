@@ -66,3 +66,4 @@ public static void mostrarResumen(int piso, int habitacion, int personas) {
     System.out.println("Habitación: " + habitacion);
     System.out.println("Cantidad de personas: " + personas);
 }
+
