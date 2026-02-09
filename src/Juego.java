@@ -1,7 +1,7 @@
+import java.util.*;
 public class Juego {
-    import java.util.*;
 
-    class Pokemon {
+    static class Pokemon {
         String nombre;
         int hp;
         int maxHp;
